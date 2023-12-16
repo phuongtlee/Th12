@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".AddData"
+    android:orientation="vertical">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập dãy số: "
+            android:textSize="20sp"/>
+        
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:id="@+id/edt_num_list"
+            android:inputType="number"
+            android:ems="16"/>
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp">
+
+       <Button
+           android:layout_width="190dp"
+           android:layout_height="wrap_content"
+           android:text="Lưu Bình Phương"
+           android:id="@+id/btn_binh_phuong"/>
+
+       <Button
+           android:layout_marginLeft="5dp"
+           android:layout_width="190dp"
+           android:layout_height="wrap_content"
+           android:text="Lưu Số Gốc"
+           android:id="@+id/btn_original"/>
+   </LinearLayout>
+</LinearLayout>
